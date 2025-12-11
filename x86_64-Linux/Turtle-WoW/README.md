@@ -42,8 +42,8 @@ The Turtle WoW private server client for patch 1.16.4 runs flawlessly on a stand
 ### 🧩 Launch Command
 ```bash
 PROTON_USE_WINED3D=1 umu-run SuperWoWlauncher.exe
-or
 ```
+or
 ```bash
 wine SuperWoWlauncher.exe
 ```
