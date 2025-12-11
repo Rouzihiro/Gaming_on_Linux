@@ -53,5 +53,6 @@ wine SuperWoWlauncher.exe
 ### 🧠 Notes
 - **Additional suggested addons**
   ```
-
+[**CleveROidMacros**](https://github.com/bhhandley/CleveRoidMacros)
+Use more advanced and modern style macros with World of Warcraft 1.12.1
   ```
