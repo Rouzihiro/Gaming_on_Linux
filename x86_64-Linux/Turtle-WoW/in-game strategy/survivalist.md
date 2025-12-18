@@ -1,4 +1,4 @@
-# Turtle WoW Wiki: Survival
+# Survival
 
 ## Overview
 **Survival** is a secondary profession in Turtle WoW that allows players to craft tools and equipment to help them overcome obstacles and thrive in the wilderness. It is available to all characters regardless of their other profession choices.
