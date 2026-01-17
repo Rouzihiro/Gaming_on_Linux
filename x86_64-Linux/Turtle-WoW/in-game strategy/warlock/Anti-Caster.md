@@ -1,4 +1,4 @@
-The Ultimate Anti-Caster Combo Macro
+# The Ultimate Anti-Caster Combo Macro
 
 ```
 /run if IsAltKeyDown() then cast("Drain Mana") return end
