@@ -1,0 +1,21 @@
+MACRO 16777230 "banish" Spell_Shadow_Possession
+/run if IsAltKeyDown() then cast"Shoot" else local CT = UnitCreatureType("target") if CT == "Demon" or CT == "Elemental" then CastSpellByName("Banish") else CastSpellByName("Fear") end end
+END
+MACRO 16777222 "bolt" Spell_Shadow_PainSpike
+/run if IsAltKeyDown() then cast "Soul Fire" else cast "Shadow Bolt" end
+END
+MACRO 16777228 "come" Spell_Shaman_Hex
+/run if IsAltKeyDown() then use "Healthstone" else PetFollow() end
+END
+MACRO 16777232 "demon" Spell_Shadow_Metamorphosis
+/run if IsAltKeyDown() then cast"Sacrifice" else local CT = UnitCreatureType("target") if CT == "Demon" then CastSpellByName("Enslave Demon") else CastSpellByName("Summon Voidwalker") end end
+END
+MACRO 16777219 "drain" Spell_Shadow_LifeDrain02
+/run if IsAltKeyDown() then cast "Drain Soul" else cast "Drain Life" end
+END
+MACRO 16777221 "pet-atk" Ability_Mount_BlackDireWolf
+/run if IsAltKeyDown() then cast "Rain of Fire" else PetAttack() end
+END
+MACRO 16777224 "protect" Spell_Shadow_LifeDrain
+/run if IsAltKeyDown() then cast "Shadow Ward" else cast "Health Funnel" end
+END

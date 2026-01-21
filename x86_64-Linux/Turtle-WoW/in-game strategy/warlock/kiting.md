@@ -10,6 +10,16 @@ The Macro
 /run cast("Searing Pain")
 ```
 
+```
+/run if IsAltKeyDown() then cast("Sacrifice") return end
+/run if not buffed("Curse of Exhaustion","target") then cast("Curse of Exhaustion") return end
+/run if not buffed("Curse of Agony","target") then cast("Curse of Agony") return end
+/run if not buffed("Corruption","target") then cast("Corruption") return end
+/run if not buffed("Siphon Life","target") then cast("Siphon Life") return end
+/run if not buffed("Immolate","target") then cast("Immolate") return end
+/run cast("Searing Pain")
+```
+
 # Why This Macro Is Cool
 
 ### 🔥 **Intelligent Priority System**
