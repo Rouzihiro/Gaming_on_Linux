@@ -11,7 +11,7 @@ MACRO 16777228 "come" Spell_Shaman_Hex
 /run if IsAltKeyDown() then use "Healthstone" else PetFollow() end
 END
 MACRO 16777239 "demon" Ability_Druid_TigersRoar
-/run if IsAltKeyDown() then UseItemByName("Spellstone") else if UnitExists("pet") then cast("Sacrifice") else cast("Summon Voidwalker") end end
+/run if IsAltKeyDown() then cast("Health Funnel") else if UnitExists("pet") then cast("Sacrifice") else cast("Summon Voidwalker") end end
 END
 MACRO 16777219 "drain" Spell_Shadow_LifeDrain02
 /run if not CastingBarFrame.channeling then if IsAltKeyDown() then cast("Drain Life") else if not UnitAffectingCombat("player") then cast("Summon Felsteed") else cast("Drain Soul") end end end
@@ -29,5 +29,5 @@ MACRO 16777221 "pet-atk" Ability_Mount_BlackDireWolf
 /run if IsAltKeyDown() then cast "Rain of Fire" else PetAttack() end
 END
 MACRO 16777224 "ward" ability_mage_moltenarmor
-/run if IsAltKeyDown() then cast "Health Funnel" else cast "Shadow Ward" end
+/run if IsAltKeyDown() then UseItemByName("Spellstone") else cast "Shadow Ward" end
 END
