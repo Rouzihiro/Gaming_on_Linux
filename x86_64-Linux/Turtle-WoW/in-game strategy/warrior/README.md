@@ -13,6 +13,7 @@
 - [Level 30–40 Progression](#-level-3040-progression)
 - [Dungeon Tanking Strategy](#-dungeon-tanking-strategy)
 - [Post-40 Fury Scaling](#-post40-fury-scaling)
+- [Level-60](#-Level-60)
 - [Talent Order Table](#-talent-order-table)
 - [Image Structure](#-image-structure)
 
@@ -159,6 +160,13 @@ This gives:
 
 ---
 
+
+# ⚡ Level-60
+![Level-60](images/pic5.webp)
+
+---
+
+
 # 📊 Talent Order Table
 
 | Level Range | Focus | Key Talents |
@@ -170,33 +178,6 @@ This gives:
 | 30–40 | Control | Concussion Blow |
 | 35–45 | Rage Scaling | 5/5 Shield Block |
 | 40+ | Damage Scaling | Fury tree |
-
----
-
-# 🎥 Optional GIF Demo
-
-You can embed gameplay clips like this:
-
-```
-![Dungeon Tanking Demo](images/tanking-demo.gif)
-```
-
----
-
-# 📂 Image Structure
-
-Recommended repo structure:
-
-```
-/your-repo
- ├── README.md
- └── images/
-     ├── pic1.webp
-     ├── pic2.webp
-     ├── pic3.webp
-     ├── pic4.webp
-     └── tanking-demo.gif (optional)
-```
 
 ---
 
@@ -215,13 +196,3 @@ Recommended repo structure:
 > Level 30 is your true power spike.
 
 ---
-
-If you want, I can now:
-
-- Make a **hardcore version**
-- Add a **gear priority section**
-- Add **macros section**
-- Convert this into a downloadable `.md` file
-- Make a matching Fury leveling guide
-
-Just tell me what you want next.
