@@ -95,6 +95,48 @@ Why this is massive:
 
 ---
 
+# 💥 Why This Build Is Secretly High Damage
+
+The obvious benefit is that tanking dungeons is really easy.
+
+What people massively underestimate is the **damage output**.
+
+### 🔨 Shield Slam Power Spike (Level 30)
+
+At level 30 you unlock **Shield Slam**.
+
+- It hits roughly twice as hard as a one-handed weapon crit.
+- 4.5 second cooldown.
+- Extremely rage efficient.
+- Scales very well with gear upgrades.
+
+This is where the build truly comes online.
+
+---
+
+### 🔄 Chain Pulling Advantage
+
+You can comfortably:
+
+- Chain pull mobs **3+ levels above you**
+- Maintain high uptime
+- Control fights with stuns and interrupts
+
+After 4–5 higher-level mobs, you may need:
+- Bandage
+- Quick food break
+
+But the tradeoff is worth it:
+
+> Higher-level mobs give better experience and better drops.
+
+This makes your leveling pace surprisingly fast despite being a "tank build".
+
+You are not just surviving —
+you are farming efficiently.
+
+---
+
 # 🧱 Level 30–40 Progression
 
 After Shield Bash:
