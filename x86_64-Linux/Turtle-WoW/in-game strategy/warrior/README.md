@@ -4,6 +4,17 @@
 
 ---
 
+# 🙌 Shoutouts
+
+Big thanks to **Yelena** from *Dark Sun* guild  
+<https://discord.com/channels/1332128120064577546/1362553177882230804>
+
+Thanks for the tips, motivation, and helping shape this guide!  
+Warriors like you make leveling way more fun ⚔️🔥
+
+
+---
+
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
