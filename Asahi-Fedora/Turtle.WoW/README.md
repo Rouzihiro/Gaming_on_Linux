@@ -1,9 +1,9 @@
 muvm bash
 DXVK_HUD=1 FEX_X87REDUCEDPRECISION=1 umu-run WoW.exe
 
+--> runner.sh script included in repo
+
 So far the best way to run the game, including superwow
-
-
 
 Requirements:
 
