@@ -16,7 +16,7 @@ muvm bash
 ---
 
 ## 🚀 Runner
-``
+```
 #!/bin/bash
 
 export WINEPREFIX="$HOME/Games/umu/WoW_prefix"
@@ -45,7 +45,8 @@ epoch
 
 alternatively run with wine:
 
-``
+```
+```
 #!/bin/bash
 
 export WINEPREFIX="$HOME/Games/wine-wow-clean"
@@ -60,7 +61,7 @@ export WINEESYNC=0
 export WINEFSYNC=0
 
 wine "$HOME/Games/Ascension/resources/epoch-live/Ascension.exe"
-``
+```
 
 ---
 
