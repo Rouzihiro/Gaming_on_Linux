@@ -38,14 +38,11 @@ export PROTON_NO_ESYNC=1
 export PROTON_NO_FSYNC=1
 
 umu-run "$HOME/Games/Ascension/resources/epoch-live/Ascension.exe"
-``
-Save as:
-
-epoch
+```
 
 alternatively run with wine:
 
-```
+
 ```
 #!/bin/bash
 
