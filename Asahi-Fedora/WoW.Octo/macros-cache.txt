@@ -1,0 +1,46 @@
+MACRO 16777224 "blink" 413
+/run if IsAltKeyDown() then CastSpellByName("Berserking") else CastSpellByName("Blink") end
+END
+MACRO 16777231 "bolt" 1
+/run if not UnitExists("target") or not UnitCanAttack("player","target") or UnitIsDead("target") then TargetNearestEnemy() end
+/run if IsAltKeyDown() then CastSpellByName("Frostbolt(Rank 1)") else CastSpellByName("Frostbolt") end
+END
+MACRO 16777222 "buff" 552
+/run local _gspells = { "Ice Armor", "Dampen Magic", "Arcane Intellect"} if GetSpellCooldown(4,"BOOKTYPE_SPELL")==0 then _gi=_gi and _gi > 0 and _gi or 1 CastSpellByName(_gspells[_gi]) _gi = math.mod(1+_gi, 1+table.getn(_gspells))end
+END
+MACRO 16777223 "detect" 5
+/run if IsAltKeyDown() then if UnitCanAttack("player","target")==1 then CastSpellByName("Detect Magic") else CastSpellByName("Dampen Magic") end else CastSpellByName("Evocation") end
+END
+MACRO 16777236 "Exp" 1
+/run if IsAltKeyDown() or not UnitAffectingCombat("player") then CastSpellByName("Arcane Explosion(Rank 1)") else CastSpellByName("Arcane Explosion") end
+END
+MACRO 16777221 "Explode" 1
+/run if not UnitAffectingCombat("player") then CastSpellByName("Arcane Explosion(Rank 1)") else CastSpellByName("Arcane Explosion") end
+END
+MACRO 16777228 "fire" 300
+/run if IsAltKeyDown() then CastSpellByName("Flamestrike") elseif UnitAffectingCombat("player") then CastSpellByName("Fire Blast") else CastSpellByName("Fireball") end
+END
+MACRO 16777229 "frost" 336
+/run if IsAltKeyDown() then CastSpellByName("Cone of Cold") elseif UnitAffectingCombat("player") or (UnitCanAttack("player","target") and not UnitIsDead("target")) then CastSpellByName("Frost Nova") else CastSpellByName("Riding Turtle") end
+END
+MACRO 16777235 "missi" 1
+/run if IsAltKeyDown() then CastSpellByName("Shoot") else local f=CnlSpam if not f then f=CreateFrame("Frame") local s="SPELLCAST_CHANNEL_" f:RegisterEvent(s.."START") f:RegisterEvent(s.."STOP") f:SetScript("OnEvent",function() this.c=event~=s.."STOP" end
+END
+MACRO 16777233 "missile" 1
+/run if IsAltKeyDown() then CastSpellByName("Shoot") else if not UnitCanAttack("player","target") or UnitIsDead("target") then TargetNearestEnemy() end CastSpellByName("Arcane Missiles") end
+END
+MACRO 16777226 "Poly" 205
+/run if IsAltKeyDown() then CastSpellByName("Polymorph") else CastSpellByName("Counterspell") end
+END
+MACRO 16777234 "Rup" 1
+/run SpellStopCasting(); if IsAltKeyDown() then CastSpellByName("Frostbolt(Rank 1)") else CastSpellByName("Arcane Rupture") end
+END
+MACRO 16777225 "shield" 409
+/run if IsAltKeyDown() then CastSpellByName("Fire Ward") else if UnitAffectingCombat("player") then CastSpellByName("Arcane Surge") else UseItemByName("Conjured Spring Water") end end
+END
+MACRO 16777237 "shield-f" 1
+/run if IsAltKeyDown() then CastSpellByName("Frost Ward") else if UnitAffectingCombat("player") then CastSpellByName("Arcane Surge") else UseItemByName("Conjured Spring Water") end end
+END
+MACRO 16777230 "shoot" 1
+/run if IsAltKeyDown() then CastSpellByName("Frostbolt(Rank 1)") elseif UnitAffectingCombat("player") or (UnitCanAttack("player","target") and not UnitIsDead("target")) then CastSpellByName("Shoot") end
+END
