@@ -1,5 +1,8 @@
+MACRO 16777240 "AR" 1
+/run if IsAltKeyDown() then SpellStopCasting(); CastSpellByName("Frostbolt(Rank 1)") elseif not ARCasting then SpellStopCasting(); CastSpellByName("Arcane Rupture") end
+END
 MACRO 16777224 "blink" 413
-/run if IsAltKeyDown() then CastSpellByName("Berserking") else CastSpellByName("Blink") end
+/run if IsAltKeyDown() then BlinkPower() else BlinkStep=0; CastSpellByName("Blink") end
 END
 MACRO 16777231 "bolt" 1
 /run if not UnitExists("target") or not UnitCanAttack("player","target") or UnitIsDead("target") then TargetNearestEnemy() end
@@ -17,8 +20,8 @@ END
 MACRO 16777221 "Explode" 1
 /run if not UnitAffectingCombat("player") then CastSpellByName("Arcane Explosion(Rank 1)") else CastSpellByName("Arcane Explosion") end
 END
-MACRO 16777228 "fire" 300
-/run if IsAltKeyDown() then CastSpellByName("Flamestrike") elseif UnitAffectingCombat("player") then CastSpellByName("Fire Blast") else CastSpellByName("Fireball") end
+MACRO 16777239 "fire" 1
+/script if IsAltKeyDown() then CastSpellByName("Flamestrike") else SmartFire() end
 END
 MACRO 16777229 "frost" 336
 /run if IsAltKeyDown() then CastSpellByName("Cone of Cold") elseif UnitAffectingCombat("player") or (UnitCanAttack("player","target") and not UnitIsDead("target")) then CastSpellByName("Frost Nova") else CastSpellByName("Riding Turtle") end
@@ -32,8 +35,8 @@ END
 MACRO 16777226 "Poly" 205
 /run if IsAltKeyDown() then CastSpellByName("Polymorph") else CastSpellByName("Counterspell") end
 END
-MACRO 16777234 "Rup" 1
-/run SpellStopCasting(); if IsAltKeyDown() then CastSpellByName("Frostbolt(Rank 1)") else CastSpellByName("Arcane Rupture") end
+MACRO 16777238 "PoM" 1
+/run  CastSpellByName("Presence of Mind"); CastSpellByName("Fireball")
 END
 MACRO 16777225 "shield" 409
 /run if IsAltKeyDown() then CastSpellByName("Fire Ward") else if UnitAffectingCombat("player") then CastSpellByName("Arcane Surge") else UseItemByName("Conjured Spring Water") end end
